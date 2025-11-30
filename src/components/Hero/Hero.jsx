@@ -111,12 +111,12 @@ const Hero = ({ handleOrderPopup }) => {
                       data-aos-duration="500"
                       data-aos-delay="300"
                     >
-                      <Button
+                      {/* <Button
                         text="Ver Mas..."
                         bgColor="bg-primary"
                         textColor="text-white"
                         handler={handleOrderPopup}
-                      />
+                      /> */}
                     </div>
                   </div>
 
