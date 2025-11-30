@@ -50,7 +50,15 @@ const NextArrow = ({ onClick }) => (
 
 const Hero = ({ handleOrderPopup }) => {
   const settings = {
-    dots: false,
+    dots: true,
+    appendDots: (dots) => (
+      <div className="mt-4">
+        <ul className="slick-dots-custom">{dots}</ul>
+      </div>
+    ),
+    customPaging: (i) => (
+      <div className="w-3 h-3 bg-primary backdrop-blur-md rounded-full hover:bg-white/80 transition-all"></div>
+    ),
     arrows: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,

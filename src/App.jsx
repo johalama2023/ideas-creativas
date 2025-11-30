@@ -90,12 +90,7 @@ const App = () => {
       <Popup orderPopup={orderPopup} handleOrderPopup={handleOrderPopup} />
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className="fixed bottom-6 right-6 z-50 w-14 h-14 
-             border-4 border-primary text-primary 
-             bg-transparent 
-             rounded-full shadow-2xl flex items-center justify-center 
-             text-3xl animate-bounce 
-             hover:scale-110 transition-all duration-300"
+        className="fixed bottom-6 right-6 z-50 w-14 h-14 border-4 border-primary/50 text-primary/50 bg-white/20 backdrop-blur-xl rounded-full shadow-2xl flex items-center justify-center text-3xl animate-bounce hover:scale-110 hover:bg-white/30 transition-all duration-300"
       >
         <FaArrowUpFromBracket />
       </button>
