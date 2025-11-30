@@ -14,7 +14,7 @@ const Category = () => {
             <div>
               <div className="mb-4">
                 <p className="mb-[2px] text-gray-400">Disfruta</p>
-                <p className="text-2xl font-semibold mb-[2px]">Con</p>
+                {/* <p className="text-2xl font-semibold mb-[2px]">Con</p> */}
                 <p className="text-4xl xl:text-4xl font-bold opacity-60 mb-2">
                   Polos
                 </p>
@@ -39,7 +39,7 @@ const Category = () => {
             <div>
               <div className="mb-4">
                 <p className="mb-[2px] text-white">Disfruta</p>
-                <p className="text-2xl font-semibold mb-[2px]">Con</p>
+                {/* <p className="text-2xl font-semibold mb-[2px]">Con</p> */}
                 <p className="text-4xl xl:text-4xl font-bold opacity-60 mb-2">
                   Tazas
                 </p>
@@ -64,7 +64,7 @@ const Category = () => {
             <div>
               <div className="mb-4">
                 <p className="mb-[2px] text-white">Disfruta</p>
-                <p className="text-2xl font-semibold mb-[2px]">Con</p>
+                {/* <p className="text-2xl font-semibold mb-[2px]">Con</p> */}
                  <p className="text-4xl xl:text-4xl font-bold opacity-60 mb-2">
                   Variedad de
                 </p>
