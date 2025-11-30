@@ -17,6 +17,7 @@ import Popup from "./components/Popup/Popup.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaArrowUpFromBracket } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 
 const BannerData = {
   discount: "Descuento por docena",
@@ -88,9 +89,21 @@ const App = () => {
       <Partners />
       <Footer />
       <Popup orderPopup={orderPopup} handleOrderPopup={handleOrderPopup} />
+      <Popup orderPopup={orderPopup} handleOrderPopup={handleOrderPopup} />
+
+      {/* BOTÓN WHATSAPP - izquierda */}
+      <a
+        href="https://wa.me/51919063494?text=Hola%20quiero%20hacer%20un%20pedido%20de%20sus%20productos"
+        target="_blank"
+        className="fixed bottom-6 left-6 sm:left-36 z-[60] w-14 h-14 bg-green-500 text-white rounded-full shadow-2xl flex items-center justify-center text-3xl hover:scale-110 transition-all duration-300 animate-bounce"
+      >
+        <FaWhatsapp />
+      </a>
+
+      {/* BOTÓN SCROLL TOP - derecha */}
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className="fixed bottom-6 right-6 z-50 w-14 h-14 border-4 border-primary/50 text-primary/50 bg-white/20 backdrop-blur-xl rounded-full shadow-2xl flex items-center justify-center text-3xl animate-bounce hover:scale-110 hover:bg-white/30 transition-all duration-300"
+        className="fixed bottom-6 right-6 sm:right-36 z-50 w-14 h-14 border-4 border-primary/50 text-primary/50 bg-white/20 backdrop-blur-xl rounded-full shadow-2xl flex items-center justify-center text-3xl animate-bounce hover:scale-110 hover:bg-white/30 transition-all duration-300"
       >
         <FaArrowUpFromBracket />
       </button>
