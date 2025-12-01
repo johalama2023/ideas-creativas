@@ -10,8 +10,8 @@ const ServiceData = [
  {
   id: 1,
   icon: <FaCarSide className="text-4xl md:text-5xl text-primary" />,
-  title: "Envío Gratuito",
-  description: "Envíos gratis en todos los pedidos",
+  title: "Envío Garantizado",
+  description: "Servicio de entrega confiable y puntual a cualquier destino del Perú.",
 },
 {
   id: 2,
