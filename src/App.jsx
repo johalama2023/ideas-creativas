@@ -93,7 +93,7 @@ const App = () => {
 
       {/* BOTÓN WHATSAPP - izquierda */}
       <a
-       href="https://wa.me/51919063494?text=Hola%20quiero%20hacer%20un%20pedido%20✅"
+       href="https://wa.me/51919063494?text=😊Hola%20quiero%20hacer%20un%20pedido%20✅"
         target="_blank"
         className="fixed bottom-6 left-6 sm:left-36 z-[60] w-14 h-14 bg-green-500 text-white rounded-full shadow-2xl flex items-center justify-center text-3xl hover:scale-110 transition-all duration-300 animate-bounce"
       >
