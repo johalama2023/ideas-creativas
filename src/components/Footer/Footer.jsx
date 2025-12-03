@@ -74,7 +74,7 @@ const Footer = () => {
 
       {/* Footer */}
       <div className="container">
-        <div className="grid md:grid-cols-3 pb-20 pt-5">
+        <div className="grid md:grid-cols-3 pb-20 pt-5 place-items-center">
           <div className="py-8 px-4">
             <a
               href="#"
@@ -150,7 +150,7 @@ const Footer = () => {
                   <p>+51 919063494</p>
                 </div>
 
-                <div className="flex items-center gap-3 mt-6">
+                {/* <div className="flex items-center gap-3 mt-6">
                   <a href="#">
                     <FaInstagram className="text-3xl hover:text-primary duration-300" />
                   </a>
@@ -160,7 +160,7 @@ const Footer = () => {
                   <a href="#">
                     <FaLinkedin className="text-3xl hover:text-primary duration-200" />
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
